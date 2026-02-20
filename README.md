@@ -17,3 +17,10 @@ Smart-Cycle, şehirlerdeki atık yönetimi krizine Yapay Zekâ (AI) ve Nesneleri
 Şu anki geliştirme aşamasında, sistemin çekirdeğini oluşturan **Computer Vision (Bilgisayarlı Görü)** katmanının simülasyonu tamamlanmıştır. 
 
 Depoda bulunan Python kodları, OpenCV kullanılarak YOLOv8 nesne tanıma mantığının ön testlerini içermektedir. Çeşitli atık görselleri üzerinde sınır kutuları (bounding boxes) ve doğruluk oranları başarıyla simüle edilmiştir.
+## 🧰 Donanım Bileşenleri (BOM)
+| Bileşen Türü | Tercih Edilen Model | Görevi |
+| :--- | :--- | :--- |
+| **Ana İşlemci (Edge)** | NVIDIA Jetson Nano | YOLOv8 modelini yerelde gecikmesiz çalıştırmak. |
+| **Görüntüleme** | 8MP IMX219 Kamera | Atıkların anlık RGB görüntülerini almak. |
+| **Mesafe/Doluluk** | HC-SR04 Ultrasonik | Konteynerin % doluluk oranını ölçmek. |
+| **Bağlantı** | Quectel 5G/LTE Modülü | Sensör verilerini buluta ve belediye paneline iletmek. |
