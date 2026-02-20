@@ -24,3 +24,12 @@ Depoda bulunan Python kodları, OpenCV kullanılarak YOLOv8 nesne tanıma mantı
 | **Görüntüleme** | 8MP IMX219 Kamera | Atıkların anlık RGB görüntülerini almak. |
 | **Mesafe/Doluluk** | HC-SR04 Ultrasonik | Konteynerin % doluluk oranını ölçmek. |
 | **Bağlantı** | Quectel 5G/LTE Modülü | Sensör verilerini buluta ve belediye paneline iletmek. |
+
+## 📱 Smart-Cycle Masaüstü Uygulaması (GUI)
+Kullanıcıların atık atma işlemlerini takip edebildiği ve kazandıkları **Green-Coin** puanlarını Turkcell ödüllerine dönüştürebildiği modern bir masaüstü arayüzü geliştirilmiştir. 
+
+* **Teknoloji:** Python & CustomTkinter (Modern UI)
+* **Özellikler:** Canlı puan takibi, Yapay Zeka onay simülasyonu ve Turkcell Ödül Marketi entegrasyonu.
+
+### Çalıştırma Talimatı:
+`python green_coin_app.py`
